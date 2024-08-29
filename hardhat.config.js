@@ -12,9 +12,9 @@ module.exports = {
   solidity: "0.8.17",
   networks: {
     mainnet: {
-      url: "https://public-en-cypress.klaytn.net",
+      url: "https://public-en-baobab.klaytn.net",
       accounts: [`0x${PRIVATE_KEY}`],
-      chainId: 8217,
+      chainId: 1001,
       gas: 8500000,
       gasPrice: 250000000000,
     },
